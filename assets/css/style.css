@@ -1,0 +1,230 @@
+html {
+        height: 100%;
+    }
+
+body {
+        font-family: Georgia, 'Times New Roman', Times, Times New Roman, serif;
+        display: flex;
+        flex-direction: column;
+        background-color: #C2C2C2;
+        margin: 0;
+        height: 100vh;
+    }
+
+    .navbar {
+        height: 70px;
+        background-color: #ffffff;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline;
+    }
+
+    a:hover {
+        color: white;
+        background: rgb(22, 187, 187);
+        padding: 8px 16px;
+    }
+
+    li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .left-side {
+        float: left;
+        margin-left: 22%;
+        padding: 20px;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-size: 26px;
+    }
+
+    .right-side {
+        display: flex;
+        float: right;
+        margin-right: 21%;
+    }
+
+    .right-side li {
+        padding: 24px 16px
+    }
+
+    .title {
+        padding-top: 2%;
+        border-bottom: 3px solid #dddddd;
+        color: #4aaaa5
+    }
+
+    .title-contact {
+        padding-top: 2%;
+        border-bottom: 3px solid #dddddd;
+        color: #4aaaa5
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 5% 22% 5% 22%;
+        padding: 0% 2% 6% 2%;
+        background-color: #ffffff;
+    }
+
+    .wrapper {
+        min-height: calc(100vh - 70px);
+        margin-bottom: -50px;
+    }
+
+    .submit-form {
+        flex-direction: column;
+    }
+
+    .form-item {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2%;
+    }
+
+    .form-item input {
+        padding: 8px
+    }
+
+    .form-item label {
+        font-weight: 300;
+        font-size: 20px;
+        padding-bottom: 6px;
+    }
+
+    textarea {
+        height: 200px;
+        border-color: #C2C2C2
+    }
+
+    button {
+        float: left;
+        border: none;
+        padding: 10px 24px 10px 24px;
+        background-color: #4aaaa5;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    .footer, push{
+        border-top:8px solid #4aaaa5;
+        margin-top: 5%;
+        background-color: rgb(53, 50, 50);
+        height: 70px;
+        color: white;
+        text-align: center;
+    }
+
+    /* PORTFOLIO portion */
+
+    .flex-container {   
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .flex-items {
+        position: relative;
+        flex-grow: 1;
+        margin: 10px 20px 10px 0px;
+        width: 200px;
+        height: 200px;
+        background-color: grey;
+    }
+    .sub-title {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 3%;
+        height: 60px;
+        width: 100%;
+        text-align: center;
+        background-color: #4aaaa5;
+        color: white;
+        font-size: 2vh;
+    }
+    img {
+        display: block;
+        float: left;
+        width: 200px;
+        height: 200px;
+        margin: 0px 10px 10px 0px;
+        background-color: grey;
+    }
+    p {
+        color: rgb(126, 126, 126);
+        line-height: 1.5;
+        margin: 0px 0px 25px 0px;
+        font-size: 18px
+    }
+
+
+    @media screen and (max-width: 980px) {
+        .left-side {
+            margin-left: 5%;
+        }
+        .right-side {
+            margin-right: 3%;
+        }
+        .container {
+            margin: 5% 30% 5% 5%;
+        }
+
+    }
+    
+    @media screen and (max-width: 768px) {
+        .container {
+            margin: 5% 5% 5% 5%;
+            padding: 0% 5% 10% 5%;
+        }
+        .flex-items {
+            margin: 10px 15px 10px 15px
+        }
+        .title {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .left-side {
+            padding: 20px 30px 20px 30px;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+
+    }
+    
+    @media screen and (max-width: 640px) {
+        .left-side {
+            margin-left: 0;
+            display: block;
+            float: none;
+            text-align: center;
+        }
+        .right-side {
+            display: flex;
+            margin-right: 0;
+            background-color: #ffffff;
+            width: 100%;
+            justify-content: center;
+        }
+        .sub-title {
+            font-size: 16px;
+        }
+        .flex-items {
+            width: 300px;
+            height: 300px;
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+        }
+    }
