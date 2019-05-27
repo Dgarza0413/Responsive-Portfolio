@@ -1,19 +1,9 @@
-html {
-        height: 100%;
-    }
-
 body {
         font-family: Georgia, 'Times New Roman', Times, Times New Roman, serif;
         display: flex;
         flex-direction: column;
         background-color: #C2C2C2;
         margin: 0;
-        height: 100vh;
-    }
-
-    .navbar {
-        height: 70px;
-        background-color: #ffffff;
     }
 
     ul {
@@ -26,15 +16,49 @@ body {
         display: inline;
     }
 
-    a:hover {
+    li:hover {
         color: white;
-        background: rgb(22, 187, 187);
-        padding: 8px 16px;
+        background-color: #4aaaa5;
     }
 
     li a {
         color: black;
         text-decoration: none;
+    }
+
+    textarea {
+        height: 200px;
+        border-color: #C2C2C2
+    }
+
+    button {
+        float: left;
+        border: none;
+        padding: 10px 24px 10px 24px;
+        background-color: #4aaaa5;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    img {
+        display: block;
+        float: left;
+        width: 200px;
+        height: 200px;
+        margin: 0px 10px 10px 0px;
+        background-color: grey;
+    }
+    p {
+        color: rgb(126, 126, 126);
+        line-height: 1.5;
+        margin: 0px 0px 25px 0px;
+        font-size: 18px
+    }
+
+    .navbar {
+        height: 70px;
+        background-color: #ffffff;
     }
 
     .left-side {
@@ -53,7 +77,7 @@ body {
     }
 
     .right-side li {
-        padding: 24px 16px
+        padding: 26px;
     }
 
     .title {
@@ -69,7 +93,6 @@ body {
     }
 
     .container {
-        flex-direction: column;
         margin: 5% 22% 5% 22%;
         padding: 0% 2% 6% 2%;
         background-color: #ffffff;
@@ -98,21 +121,6 @@ body {
         font-weight: 300;
         font-size: 20px;
         padding-bottom: 6px;
-    }
-
-    textarea {
-        height: 200px;
-        border-color: #C2C2C2
-    }
-
-    button {
-        float: left;
-        border: none;
-        padding: 10px 24px 10px 24px;
-        background-color: #4aaaa5;
-        font-size: 16px;
-        font-weight: 700;
-        color: #ffffff;
     }
 
     .footer, push{
@@ -150,20 +158,7 @@ body {
         color: white;
         font-size: 2vh;
     }
-    img {
-        display: block;
-        float: left;
-        width: 200px;
-        height: 200px;
-        margin: 0px 10px 10px 0px;
-        background-color: grey;
-    }
-    p {
-        color: rgb(126, 126, 126);
-        line-height: 1.5;
-        margin: 0px 0px 25px 0px;
-        font-size: 18px
-    }
+
 
 
     @media screen and (max-width: 980px) {
