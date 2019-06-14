@@ -2,4 +2,7 @@
 
 ## Overview
 
-In this assignment, you'll build a professional portfolio site using HTML/CSS. These instructions include a short style guide; follow it to design an aesthetically pleasing layout while creating different kinds of complex HTML elements.
+In this assignment, I build a professional portfolio site using HTML/CSS.
+
+06/11/2019
+I have included anchor tags in my portfolio section and currently working on covers to suit their respective titles
